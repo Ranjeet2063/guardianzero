@@ -1,0 +1,20 @@
+[package]
+name = "guardianzero"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ranjeet Kumar Gupta <ranjeet2063@users.noreply.github.com>"]
+description = "Universal Sovereign AI Guardian & Bare-Metal Anti-Scam, Phishing and Drainer Defense Engine"
+readme = "README.md"
+repository = "https://github.com/Ranjeet2063/guardianzero"
+license = "MIT OR Apache-2.0"
+keywords = ["security", "ai-guardian", "anti-scam", "phishing-detector", "sandbox"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+colored = "2.1"
+regex = "1.10"
+sha2 = "0.10"
+chrono = { version = "0.4", features = ["serde"] }
